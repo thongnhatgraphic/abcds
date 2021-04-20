@@ -22,6 +22,7 @@ export function LanguageProvider(props) {
       messages={props.messages[props.locale]}
     >
       {React.Children.only(props.children)}
+      <i class="fas fa-divide    ">haha</i>
     </IntlProvider>
   );
 }
